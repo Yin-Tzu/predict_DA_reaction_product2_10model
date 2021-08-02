@@ -82,7 +82,7 @@ paramiko==2.7.2
 parso==0.7.0
 pefile==2021.5.24
 pickleshare 
-Pillow @ file:///D:/bld/pillow_1621288269226/work
+Pillow 
 proglog==0.1.9
 prometheus-client==0.11.0
 prompt-toolkit 
