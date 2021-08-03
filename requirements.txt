@@ -119,6 +119,7 @@ tqdm==4.62.0
 traitlets 
 typing-extensions==3.7.4.3
 urllib3==1.26.6
+voila==0.2.10
 wcwidth 
 webencodings==0.5.1
 Werkzeug==2.0.1
