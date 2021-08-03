@@ -19,7 +19,7 @@ click==8.0.1
 colorama 
 cryptography==3.4.7
 cycler==0.10.0
-decorator @ file:///tmp/build/80754af9/decorator_1621259047763/work
+decorator 
 defusedxml==0.7.1
 entrypoints==0.3
 ffmpy==0.3.0
