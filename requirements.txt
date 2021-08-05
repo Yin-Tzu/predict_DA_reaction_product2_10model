@@ -1,5 +1,5 @@
 ipywidgets==7.6.3
-numpy==1.21.1
+numpy==1.19.3
 tensorflow==2.5.0
 opencv_python==4.5.3.56
 moviepy==1.0.3
