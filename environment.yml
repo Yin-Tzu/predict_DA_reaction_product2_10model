@@ -2,7 +2,7 @@ name: must_packge2
 channels:
   - rdkit
   - defaults
-  - conda-forge
+  #- conda-forge
 dependencies:
   - backcall=0.2.0=pyhd3eb1b0_0
   - blas=1.0=mkl
