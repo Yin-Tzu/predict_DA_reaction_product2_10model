@@ -49,7 +49,7 @@ dependencies:
   - sqlite=3.36.0
   - tk=8.6.10
   - traitlets=5.0.5=pyhd3eb1b0_0
-  - vc=14.2
+  - anaconda vc=14.2
   - vs2015_runtime=14.27.29016
   - wcwidth=0.2.5=py_0
   - wheel=0.36.2=pyhd3eb1b0_0
