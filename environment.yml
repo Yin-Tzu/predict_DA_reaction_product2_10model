@@ -2,62 +2,64 @@ name: must_packge2
 channels:
   - rdkit
   - defaults
+  - conda-forge
 dependencies:
   - backcall=0.2.0=pyhd3eb1b0_0
   - blas=1.0=mkl
-  - bottleneck=1.3.2
-  - ca-certificates=2021.7.5
-  - cairo=1.14.12
-  - certifi=2021.5.30
+  - bottleneck=1.3.2=py37h2a96729_1
+  - ca-certificates=2021.7.5=haa95532_1
+  - cairo=1.14.12=hf171d8a_3
+  - certifi=2021.5.30=py37haa95532_0
   - colorama=0.4.4=pyhd3eb1b0_0
-  - freetype=2.10.4
-  - icu=58.2
-  - intel-openmp=2021.3.0
-  - ipython=7.26.0
+  - freetype=2.10.4=hd328e21_0
+  - icu=58.2=ha925a31_3
+  - intel-openmp=2021.3.0=haa95532_3372
+  - ipython=7.26.0=py37hd4e2768_0
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
-  - jedi=0.18.0
-  - jpeg=9b
+  - jedi=0.18.0=py37haa95532_1
+  - jpeg=9b=hb83a4c4_2
   - jupyter_client=6.1.12=pyhd3eb1b0_0
-  - jupyter_core=4.7.1
-  - libboost=1.67.0
-  - libpng=1.6.37
-  - libsodium=1.0.18
-  - libtiff=4.2.0
-  - lz4-c=1.9.3
+  - jupyter_core=4.7.1=py37haa95532_0
+  - libboost=1.67.0=hd9e427e_4
+  - libpng=1.6.37=h2a8f88b_0
+  - libsodium=1.0.18=h62dcd97_0
+  - libtiff=4.2.0=hd0e1b90_0
+  - lz4-c=1.9.3=h2bbff1b_1
   - matplotlib-inline=0.1.2=pyhd3eb1b0_2
-  - mkl=2021.3.0
-  - mkl-service=2.4.0
-  - mkl_fft=1.3.0
-  - mkl_random=1.2.2
-  - numexpr=2.7.3
-  - numpy-base=1.20.3
+  - mkl=2021.3.0=haa95532_524
+  - mkl-service=2.4.0=py37h2bbff1b_0
+  - mkl_fft=1.3.0=py37h277e83a_2
+  - mkl_random=1.2.2=py37hf11a4ad_0
+  - numexpr=2.7.3=py37hb80d3ca_1
+  - numpy-base=1.20.3=py37hc2deb75_0
   - olefile=0.46=py37_0
-  - openssl=1.1.1k
-  - pandas=1.3.1
+  - openssl=1.1.1k=h2bbff1b_0
+  - pandas=1.3.1=py37h6214cd6_0
   - parso=0.8.2=pyhd3eb1b0_0
   - pickleshare=0.7.5=pyhd3eb1b0_1003
-  - pillow=8.3.1
-  - pip=21.2.2
-  - pixman=0.40.0
-  - py-boost=1.67.0
+  - pillow=8.3.1=py37h4fa10fc_0
+  - pip=21.2.2=py37haa95532_0
+  - pixman=0.40.0=he774522_0
+  - py-boost=1.67.0=py37h8300f20_4
   - pygments=2.9.0=pyhd3eb1b0_0
-  - python=3.7.11
+  - python=3.7.11=h6244533_0
   - python-dateutil=2.8.2=pyhd3eb1b0_0
   - pytz=2021.1=pyhd3eb1b0_0
-  - rdkit=2020.09.1.0
-  - setuptools=52.0.0
-  - sqlite=3.36.0
-  - tk=8.6.10
+  - rdkit=2020.09.1.0=py37h3d1ada6_1
+  - setuptools=52.0.0=py37haa95532_0
+  - sqlite=3.36.0=h2bbff1b_0
+  - tk=8.6.10=he774522_0
+  - tornado=6.1=py37h2bbff1b_0
   - traitlets=5.0.5=pyhd3eb1b0_0
-  - anaconda vc=14.2
-  - vs2015_runtime=14.27.29016
+  - vc=14.2=h21ff451_1
+  - vs2015_runtime=14.27.29016=h5e58377_2
   - wcwidth=0.2.5=py_0
   - wheel=0.36.2=pyhd3eb1b0_0
-  - wincertstore=0.2
-  - xz=5.2.5
-  - zeromq=4.3.3
-  - zlib=1.2.11
-  - zstd=1.4.9
+  - wincertstore=0.2=py37_0
+  - xz=5.2.5=h62dcd97_0
+  - zeromq=4.3.3=ha925a31_3
+  - zlib=1.2.11=h62dcd97_4
+  - zstd=1.4.9=h19a0ad4_0
   - pip:
     - absl-py==0.13.0
     - analytics-python==1.4.0
@@ -140,6 +142,8 @@ dependencies:
     - pynacl==1.4.0
     - pyparsing==2.4.7
     - pyrsistent==0.18.0
+    - pywin32==301
+    - pywinpty==1.1.3
     - pyzmq==22.2.1
     - requests==2.26.0
     - requests-oauthlib==1.3.0
@@ -155,6 +159,7 @@ dependencies:
     - tensorflow==2.5.0
     - tensorflow-estimator==2.5.0
     - termcolor==1.1.0
+    - terminado==0.10.1
     - testpath==0.5.0
     - tqdm==4.62.0
     - typing-extensions==3.7.4.3
