@@ -1,6 +1,7 @@
 name: must_packge2
 channels:
   - rdkit
+  - bioconda
   - defaults
   - conda-forge
 dependencies:
