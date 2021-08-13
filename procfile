@@ -1,1 +1,0 @@
-web: voila --port=$PORT --no-browser load_model_10_ring_predict_change_input_method.ipynb
